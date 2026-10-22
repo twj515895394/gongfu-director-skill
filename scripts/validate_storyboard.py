@@ -113,7 +113,8 @@ def validate_h3(text: str, max_chars: int, issues: list[dict[str, str]]) -> None
     for match in shot_matches:
         shot_no = int(match.group(1))
         minute, second, millis = match.group(2), match.group(3), match.group(4)
-        header_line = text[match.start(): text.find("\n", match.start()) if "\n" in text[match.start():] else len(text)]
+        newline = text.find("\n", match.start())
+        header_line = text[match.start(): newline if newline >= 0 else len(text)]
         has_at = re.search(r"\bAt\b", header_line) is not None
         if shot_no == 1 and minute is not None:
             issues.append(
