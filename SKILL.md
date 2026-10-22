@@ -69,7 +69,8 @@ references 按**权责**分五组。在编文件开头都有「管辖范围」�
 |---|---|
 | `output-format.md` | **交付形态权威定义**：中文分镜表模板 · 字段排版硬规则 · H3 输出规则 |
 | `storyboard-structure.md` | H3 稿内部结构：逐镜十项骨架 · 措辞标准 · 音效三层 |
-| `action-timing.md` | **所有数法**：十套校验 + 蒙太奇衔接 9 匹配 + 脚本写法坑 |
+| `action-timing.md` | **所有数法**：十套校验 + 蒙太奇衔接 9 匹配 + 脚本写法坑；按任务读取对应章节 | 
+| `full-audit-checklist.md` | 完整审计清单（只在最终验收、复杂任务、失败复查或用户要求全量审计时加载） |
 | `user-style.md` | 用户用词习惯 · 精炼标准 · 读图方法 |
 | `action-line-template.md` | 用户填创意的固定表与解析法 |
 | `reference-research.md` | 创意模糊先搜现代参考 · 2008 硬线 + 白名单 |
@@ -152,6 +153,7 @@ references 不可能一次全读——确认哪个意图节点，就决定开哪
 | 质感块 · 3DCG | `look-quality.md` |
 | 目标模型 H3 | `storyboard-structure.md` + `output-format.md` |
 | 重设计 | `delivery-rules.md` 硬规则 13 六轴清单 + `delivery-showcase.md` 二三四节 |
+| 完整审计 / 最终验收 | `full-audit-checklist.md` + `action-timing.md` 对应章节及本轮命中的专项规则 |
 | 创意模糊 | 先按 `reference-research.md` 搜索 |
 
 ---
