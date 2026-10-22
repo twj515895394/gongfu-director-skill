@@ -25,7 +25,7 @@ H3_SHOT_RE = re.compile(
     r"(?m)^\s*\[Shot\s+(\d+)\](?:\s+At\s+(\d{2}):(\d{2})\.(\d{3}))?"
 )
 CN_SHOT_RE = re.compile(r"(?m)^\s*(?:#{1,4}\s*)?镜头\s*(\d+)\s*[：:]")
-CJK_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff]")
+CJK_RE = re.compile(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af]")
 FIELD_RE = re.compile(r"(?m)^\s*([a-z_]+)\s*:")
 CN_REQUIRED_MARKERS = {
     "参考图说明": re.compile(r"参考图说明"),
@@ -83,7 +83,7 @@ def validate_h3(text: str, max_chars: int, issues: list[dict[str, str]]) -> None
             issue(
                 "error",
                 "h3_cjk",
-                f"Found {len(cjk)} CJK ideograph(s); first occurrence is on line {line_no}. H3 prompt must be English-only.",
+                f"Found {len(cjk)} CJK/Kana/Hangul character(s); first occurrence is on line {line_no}. H3 prompt must be English-only.",
             )
         )
 
