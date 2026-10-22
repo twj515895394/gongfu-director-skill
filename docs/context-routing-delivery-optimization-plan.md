@@ -397,7 +397,7 @@
 - 新增 `references/impact-intensity.md`，定义基础命中反馈与强化冲击，不替代动作体系，也不自动引入静帧/残影等特效。
 - 新增 `references/full-audit-checklist.md`，把完整 21 项与通用/长镜头审计移出运行时入口；`references/action-timing.md` 改为引用该清单。
 - 将详细参考资料目录迁至 `docs/reference-catalog.md`，明确其仅供维护时查阅。
-- `SKILL.md` 从基线约 15,455 字符精简到约 12,058 字符（约减少 22%；字符数不是 Token 数）。核心铁律摘要与路由仍保留在入口。
+- `SKILL.md` 从基线约 15,455 字符精简到约 12,403 字符（约减少 20%；字符数不是 Token 数）。核心铁律摘要与路由仍保留在入口。
 
 ### Phase 3：交付模式与产物分级 — 已实施
 
