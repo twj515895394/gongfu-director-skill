@@ -68,6 +68,7 @@ references 不可能一次全读——确认哪个意图节点，就决定开哪
 | 题材 · 围攻/追逐/见招拆招/对轰/群战 | `scene-playbooks.md` 对应节 |
 | 文戏 | `camera-language.md` 附录 C + `emotion-to-camera.md` |
 | 含特效镜头 | `vfx-quality.md` → `vfx-families.md` 路由 |
+| 复杂空间/用户要求俯视调度图 | `blocking-diagram.md`（仅在相应条件命中时） |
 | 质感块 · 3DCG | `look-quality.md` |
 | 目标模型 H3 | `storyboard-structure.md` + `output-format.md` |
 | 重设计 | `delivery-rules.md` 硬规则 13 六轴清单 + `delivery-showcase.md` 二三四节 |
@@ -115,7 +116,7 @@ references 不可能一次全读——确认哪个意图节点，就决定开哪
 | 8 | 精炼而不丢信息：砍修辞不砍内容 |
 | 9 | 汇总与概括段落必须回查正文，次数与镜号逐个对 |
 | 10 | 支配元素支配到底；动作受力不算支配元素——写 `that is action, not wind` |
-| 11 | 用脚本自查不靠肉眼；脚本用完即删，结论写对话回复不落盘 |
+| 11 | 用脚本自查不靠肉眼；项目内可复用的确定性校验脚本保留并版本化，临时脚本用完即删；按交付模式汇报结论与异常 |
 | 12 | （已并入硬规则 1，留号占位） |
 | 13 | 反雷同换骨不换皮：逐拍一字不差率 ≤ 20%；六轴差异清单动笔前先填；重设计不读旧稿 |
 | 14 | 点名景别角度照办不受配额，没点名的我设计；唯一不让位的是铁律 12 |
